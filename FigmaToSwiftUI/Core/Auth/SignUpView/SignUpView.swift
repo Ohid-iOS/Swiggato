@@ -1,31 +1,50 @@
 //
-//  LoginView.swift
+//  SignUpView.swift
 //  FigmaToSwiftUI
 //
-//  Created by Tech Exactly iPhone 6 on 29/01/25.
+//  Created by Tech Exactly iPhone 6 on 30/01/25.
 //
 
 import SwiftUI
 
-struct LoginView: View {
-    @State private var email: String = ""
+struct SignUpView: View {
+    @State private var name: String = ""
     @State private var password: String = ""
+    @State private var email: String = ""
+    
+    
     
     var body: some View {
         NavigationStack{
+            
+            
             ScrollView {
                 VStack(spacing: 10) {
                     VStack(spacing: 10){
-                        Text("Hello Again!")
+                        Text("Create Account!")
                             .font(.largeTitle)
                             .fontWeight(.bold)
                         
-                        Text("Welcome Back You've Been Missed!")
+                        Text("Welcome let's create account together")
                             .font(.subheadline)
                             .foregroundColor(.gray)
                             .lineLimit(1)
                     }
                     .padding(.vertical, 40)
+                    
+                    VStack(alignment: .leading, spacing:10){
+                        Text("Your Name")
+                            .font(.subheadline)
+                            .fontWeight(.semibold)
+                            .padding(.horizontal)
+                        TextField("Enter Your Name", text: $name)
+                            .padding()
+                            .background(Color.white)
+                            .cornerRadius(28)
+                            .padding(.horizontal)
+                    }
+                    //.padding(.vertical)
+                    
                     
                     VStack(alignment: .leading, spacing:10){
                         Text("Email Address")
@@ -38,7 +57,7 @@ struct LoginView: View {
                             .cornerRadius(28)
                             .padding(.horizontal)
                     }
-                    .padding(.vertical)
+                    //.padding(.vertical)
                     
                     VStack(alignment: .leading, spacing:10){
                         Text("Password")
@@ -51,24 +70,15 @@ struct LoginView: View {
                             .background(Color.white)
                             .cornerRadius(28)
                             .padding(.horizontal)
-                        
-                        HStack{
-                            Spacer()
-                            Button {
-                                
-                            } label: {
-                                Text("Recovery Password")
-                                    .font(.subheadline)
-                                    .fontWeight(.semibold)
-                                    .foregroundColor(.gray)
-                            }
-                        }
                     }
+                    
+                    Spacer()
+                    
                     
                     Button(action: {
                         // Handle sign in action
                     }) {
-                        Text("Log In")
+                        Text("Sign Up")
                             .font(.headline)
                             .foregroundColor(.white)
                             .padding()
@@ -106,12 +116,20 @@ struct LoginView: View {
                         Spacer()
                         
                         HStack {
-                            Text("Don't Have An Account?")
+                            Text("Already Have An Account?")
+//                            Button(action: {
+//                                // Handle sign up action
+//                            }) {
+//                                Text("Login")
+//                                    .foregroundColor(.blue)
+//                            }
                             NavigationLink {
-                                SignUpView()
+                                LoginView()
                             } label: {
-                                Text("SignUp")
+                                Text("Login")
+
                             }
+
                         }
                     }
                     .padding(.top)
@@ -124,8 +142,8 @@ struct LoginView: View {
         }
     }
 }
-struct LoginView_Previews: PreviewProvider {
+struct SignUpView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        SignUpView()
     }
 }

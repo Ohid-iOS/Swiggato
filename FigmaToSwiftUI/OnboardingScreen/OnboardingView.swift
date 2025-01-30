@@ -45,7 +45,7 @@ struct OnboardingView: View {
                     
                     // Next / Get Started Button
                     if currentPage == totalPages - 1 {
-                        NavigationLink(destination: LoginView()) {
+                        NavigationLink(destination: SignUpView()) {
                             Text("Get Started")
                                 .font(.headline)
                                 .foregroundColor(.white)
