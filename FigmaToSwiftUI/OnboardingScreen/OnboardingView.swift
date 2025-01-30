@@ -5,66 +5,6 @@
 //  Created by Tech Exactly iPhone 6 on 29/01/25.
 //
 
-//import SwiftUI
-//
-//struct OnboardingView: View {
-//    @State private var currentPage = 0
-//
-//    var body: some View {
-//        VStack {
-//            TabView(selection: $currentPage) {
-//                Image("Onboard1")
-//                    .resizable()
-//                    .scaledToFill()
-//                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-//                    .tag(0)
-//
-//                Image("Onboard2")
-//                    .resizable()
-//                    .scaledToFill()
-//                    .tag(1)
-//
-//                Image("Onboard3")
-//                    .resizable()
-//                    .scaledToFill()
-//                    .tag(2)
-//
-//            }
-//            .tabViewStyle(.page(indexDisplayMode: .always))
-//
-//
-//            HStack{
-//                Spacer()
-//                Button(action: {
-//                    if currentPage < 2 {
-//                        withAnimation {
-//                            currentPage += 1
-//                        }
-//                    } else {
-//                        // Navigate to LoginView
-//                        // You can use NavigationLink or any other navigation method here
-//                    }
-//                }) {
-//                    Text(currentPage == 2 ? "Get Started" : "Next")
-//                        .font(.headline)
-//                        .foregroundColor(.white)
-//                        .padding()
-//                        .frame(width: 125)
-//                        .background(Color.black)
-//                        .cornerRadius(25)
-//                }
-//            }.padding()
-//        }
-//    }
-//}
-//
-//
-//struct OnboardingView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        OnboardingView ()
-//    }
-//}
-
 import SwiftUI
 
 struct OnboardingView: View {
@@ -72,9 +12,7 @@ struct OnboardingView: View {
     private let totalPages = 3
     
     var body: some View {
-        NavigationStack {
-
-                
+            NavigationStack {
                 VStack {
                     TabView(selection: $currentPage) {
                         Image("Onboard1")
@@ -134,10 +72,11 @@ struct OnboardingView: View {
                         .padding(.bottom, 30)
                     }
                 }.frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color(red: 248/255, green: 249/255, blue: 251/255))
+                    .background(Color(red: 248/255, green: 249/255, blue: 251/255))
             }
         }
     }
+
 struct OnboardingView_Previews: PreviewProvider {
     static var previews: some View {
         OnboardingView()
