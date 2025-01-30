@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		021832B02D4B761A0043AF7D /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021832AF2D4B761A0043AF7D /* SignUpView.swift */; };
+		021832B52D4B90B20043AF7D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021832B42D4B90B20043AF7D /* HomeView.swift */; };
 		02720EB02D4A4CF9001D9555 /* FigmaToSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02720EAF2D4A4CF9001D9555 /* FigmaToSwiftUIApp.swift */; };
 		02720EB22D4A4CF9001D9555 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02720EB12D4A4CF9001D9555 /* ContentView.swift */; };
 		02720EB42D4A4D04001D9555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02720EB32D4A4D04001D9555 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		021832AF2D4B761A0043AF7D /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		021832B42D4B90B20043AF7D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		02720EAC2D4A4CF9001D9555 /* FigmaToSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FigmaToSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02720EAF2D4A4CF9001D9555 /* FigmaToSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaToSwiftUIApp.swift; sourceTree = "<group>"; };
 		02720EB12D4A4CF9001D9555 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +42,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		021832B12D4B90500043AF7D /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				021832B42D4B90B20043AF7D /* HomeView.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		021832B22D4B90740043AF7D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				02720EAF2D4A4CF9001D9555 /* FigmaToSwiftUIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		021832B32D4B907E0043AF7D /* AppEntry */ = {
+			isa = PBXGroup;
+			children = (
+				02720EB12D4A4CF9001D9555 /* ContentView.swift */,
+			);
+			path = AppEntry;
+			sourceTree = "<group>";
+		};
 		02720EA32D4A4CF9001D9555 = {
 			isa = PBXGroup;
 			children = (
@@ -59,11 +85,11 @@
 		02720EAE2D4A4CF9001D9555 /* FigmaToSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				021832B32D4B907E0043AF7D /* AppEntry */,
+				021832B22D4B90740043AF7D /* App */,
 				02720EBF2D4A4D61001D9555 /* Core */,
 				02720EBE2D4A4D36001D9555 /* OnboardingScreen */,
 				02720EBD2D4A4D19001D9555 /* LaunchScreen */,
-				02720EAF2D4A4CF9001D9555 /* FigmaToSwiftUIApp.swift */,
-				02720EB12D4A4CF9001D9555 /* ContentView.swift */,
 				02720EB32D4A4D04001D9555 /* Assets.xcassets */,
 				02720EB52D4A4D04001D9555 /* Preview Content */,
 			);
@@ -97,6 +123,7 @@
 		02720EBF2D4A4D61001D9555 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				021832B12D4B90500043AF7D /* HomeScreen */,
 				02720EC02D4A4D68001D9555 /* Auth */,
 			);
 			path = Core;
@@ -206,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02720EC52D4A4DAE001D9555 /* LoginView.swift in Sources */,
+				021832B52D4B90B20043AF7D /* HomeView.swift in Sources */,
 				02720EB22D4A4CF9001D9555 /* ContentView.swift in Sources */,
 				02720EB02D4A4CF9001D9555 /* FigmaToSwiftUIApp.swift in Sources */,
 				02720EC92D4A5973001D9555 /* OnboardingView.swift in Sources */,

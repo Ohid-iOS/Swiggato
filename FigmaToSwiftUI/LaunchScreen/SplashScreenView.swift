@@ -40,7 +40,7 @@ struct SplashScreenView: View {
             }
             .onAppear {
                 // Start a timer to update the progress and countdown
-                Timer.scheduledTimer(withTimeInterval: 0.02, repeats: true) { timer in
+                Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { timer in
                     withAnimation {
                         progress += 1.0 // Increment progress by 1% every 0.02 seconds
                         countdown -= 1 // Decrement countdown by 1

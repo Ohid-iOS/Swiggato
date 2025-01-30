@@ -29,7 +29,7 @@ struct SignUpView: View {
                             .font(.subheadline)
                             .foregroundColor(.gray)
                             .lineLimit(1)
-                    }
+                    }.padding(.top,70)
                     .padding(.vertical, 40)
                     
                     VStack(alignment: .leading, spacing:10){
@@ -75,9 +75,22 @@ struct SignUpView: View {
                     Spacer()
                     
                     
-                    Button(action: {
-                        // Handle sign in action
-                    }) {
+//                    Button(action: {
+//                        // Handle sign in action
+//                    }) {
+//                        Text("Sign Up")
+//                            .font(.headline)
+//                            .foregroundColor(.white)
+//                            .padding()
+//                            .frame(maxWidth: .infinity)
+//                            .background(Color.blue)
+//                            .cornerRadius(28)
+//                            .padding(.horizontal)
+//                    }
+                    
+                    NavigationLink {
+                        HomeView()
+                    } label: {
                         Text("Sign Up")
                             .font(.headline)
                             .foregroundColor(.white)
@@ -87,6 +100,7 @@ struct SignUpView: View {
                             .cornerRadius(28)
                             .padding(.horizontal)
                     }
+
                     
                     HStack {
                         VStack { Divider() }

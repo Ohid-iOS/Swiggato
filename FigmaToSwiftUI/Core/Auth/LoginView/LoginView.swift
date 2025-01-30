@@ -24,7 +24,7 @@ struct LoginView: View {
                             .font(.subheadline)
                             .foregroundColor(.gray)
                             .lineLimit(1)
-                    }
+                    }.padding(.top,70)
                     .padding(.vertical, 40)
                     
                     VStack(alignment: .leading, spacing:10){
