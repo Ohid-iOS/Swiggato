@@ -16,6 +16,7 @@
 		02720EC52D4A4DAE001D9555 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02720EC42D4A4DAE001D9555 /* LoginView.swift */; };
 		02720EC72D4A5711001D9555 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02720EC62D4A5711001D9555 /* SplashScreenView.swift */; };
 		02720EC92D4A5973001D9555 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02720EC82D4A5973001D9555 /* OnboardingView.swift */; };
+		02BB8D602D4C8CEA003F2951 /* ForgetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BB8D5F2D4C8CEA003F2951 /* ForgetPasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		02720EC42D4A4DAE001D9555 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		02720EC62D4A5711001D9555 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		02720EC82D4A5973001D9555 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		02BB8D5F2D4C8CEA003F2951 /* ForgetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 		02720EC32D4A4D90001D9555 /* ForgetPassword */ = {
 			isa = PBXGroup;
 			children = (
+				02BB8D5F2D4C8CEA003F2951 /* ForgetPasswordView.swift */,
 			);
 			path = ForgetPassword;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02BB8D602D4C8CEA003F2951 /* ForgetPasswordView.swift in Sources */,
 				02720EC52D4A4DAE001D9555 /* LoginView.swift in Sources */,
 				021832B52D4B90B20043AF7D /* HomeView.swift in Sources */,
 				02720EB22D4A4CF9001D9555 /* ContentView.swift in Sources */,

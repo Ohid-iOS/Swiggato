@@ -51,17 +51,28 @@ struct LoginView: View {
                             .background(Color.white)
                             .cornerRadius(28)
                             .padding(.horizontal)
+                            .padding(.bottom)
                         
                         HStack{
                             Spacer()
-                            Button {
-                                
+//                            Button {
+//
+//                            } label: {
+//                                Text("Recovery Password")
+//                                    .font(.subheadline)
+//                                    .fontWeight(.semibold)
+//                                    .foregroundColor(.gray)
+//                            }
+                            
+                            NavigationLink {
+                                ForgetPasswordView()
                             } label: {
                                 Text("Recovery Password")
                                     .font(.subheadline)
                                     .fontWeight(.semibold)
                                     .foregroundColor(.gray)
                             }
+
                         }
                     }
                     
@@ -73,9 +84,10 @@ struct LoginView: View {
                             .foregroundColor(.white)
                             .padding()
                             .frame(maxWidth: .infinity)
-                            .background(Color.blue)
+                            .background(Color.black)
                             .cornerRadius(28)
                             .padding(.horizontal)
+                            .padding(.top)
                     }
                     
                     HStack {
@@ -107,10 +119,13 @@ struct LoginView: View {
                         
                         HStack {
                             Text("Don't Have An Account?")
+                                .foregroundColor(.gray)
                             NavigationLink {
                                 SignUpView()
                             } label: {
                                 Text("SignUp")
+                                    .foregroundColor(.black)
+                                    .bold()
                             }
                         }
                     }

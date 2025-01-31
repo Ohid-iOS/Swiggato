@@ -96,7 +96,7 @@ struct SignUpView: View {
                             .foregroundColor(.white)
                             .padding()
                             .frame(maxWidth: .infinity)
-                            .background(Color.blue)
+                            .background(Color.black)
                             .cornerRadius(28)
                             .padding(.horizontal)
                     }
@@ -131,6 +131,7 @@ struct SignUpView: View {
                         
                         HStack {
                             Text("Already Have An Account?")
+                                .foregroundColor(.gray)
 //                            Button(action: {
 //                                // Handle sign up action
 //                            }) {
@@ -141,6 +142,8 @@ struct SignUpView: View {
                                 LoginView()
                             } label: {
                                 Text("Login")
+                                    .foregroundColor(.black)
+                                    .bold()
 
                             }
 
