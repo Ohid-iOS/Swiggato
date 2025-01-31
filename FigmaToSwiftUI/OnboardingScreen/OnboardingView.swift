@@ -15,20 +15,20 @@ struct OnboardingView: View {
             NavigationStack {
                 VStack {
                     TabView(selection: $currentPage) {
-                        Image("Onboard1")
+                        Image("landing1")
                             .resizable()
-                            .scaledToFill()
+                            .scaledToFit()
                         
                             .tag(0)
                         
-                        Image("Onboard2")
+                        Image("landing2")
                             .resizable()
-                            .scaledToFill()
+                            .scaledToFit()
                             .tag(1)
                         
-                        Image("Onboard3")
+                        Image("landing3")
                             .resizable()
-                            .scaledToFill()
+                            .scaledToFit()
                             .tag(2)
                     }
                     .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never)) // Hide default dots
@@ -50,7 +50,7 @@ struct OnboardingView: View {
                                 .font(.headline)
                                 .foregroundColor(.white)
                                 .padding()
-                                .frame(width: 150)
+                                .frame(width: 350)
                                 .background(Color.black)
                                 .cornerRadius(25)
                         }
@@ -65,14 +65,15 @@ struct OnboardingView: View {
                                 .font(.headline)
                                 .foregroundColor(.white)
                                 .padding()
-                                .frame(width: 150)
+                                .frame(width: 350)
                                 .background(Color.black)
                                 .cornerRadius(25)
                         }
                         .padding(.bottom, 30)
                     }
                 }.frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .background(Color(red: 248/255, green: 249/255, blue: 251/255))
+                  //  .background(Color(red: 248/255, green: 249/255, blue: 251/255))
+                    
             }
         }
     }
