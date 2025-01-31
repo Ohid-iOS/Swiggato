@@ -120,10 +120,6 @@
 //    }
 //}
 
-
-
-
-
 import SwiftUI
 
 // MARK: - Home View
@@ -134,6 +130,7 @@ struct HomeView: View {
     @State private var navigateToLogin: Bool = false // Control navigation
     @State private var showCart: Bool = false // Control navigation to AddItemView
     @State private var selectedFood: FoodModel? // Track selected food item for sheet
+    @State private var itemCounts: [UUID: Int] = [:] // Track item counts
     
     let foodItems = FoodData.foodItems
     
@@ -264,7 +261,7 @@ struct HomeView: View {
                 }
                 
                 // Navigation to AddItemView
-                NavigationLink(destination: AddItemView(selectedItems: selectedFoodItems), isActive: $showCart) {
+                NavigationLink(destination: AddItemView(itemCounts: $itemCounts, selectedItems: selectedFoodItems), isActive: $showCart) {
                     EmptyView()
                 }
             }
@@ -279,6 +276,7 @@ struct HomeView: View {
         .edgesIgnoringSafeArea(.all)
     }
 }
+
 
 
 // MARK: - Side Menu View
