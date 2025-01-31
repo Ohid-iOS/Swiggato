@@ -11,53 +11,53 @@ struct FoodData {
     static let foodItems: [FoodModel] = [
         FoodModel(
             title: "Pizza",
-            image: "splash",
+            image: "0pizza",
             price: "Rs.200"
         ),
         
         FoodModel(
             title: "Burger",
-            image: "google",
+            image: "1burger",
             price: ""
         ),
         FoodModel(
             title: "Pasta",
-            image: "",
+            image: "pastaImage",
             price: ""
         ),
         FoodModel(
             title: "Sushi",
-            image: "",
+            image: "0sushi",
             price: ""
         ),
         FoodModel(
             title: "Salad",
-            image: "",
+            image: "0salad",
             price: ""
         ),
         FoodModel(
             title: "Steak",
-            image: "",
+            image: "0steak",
             price: ""
         ),
         FoodModel(
             title: "Tacos",
-            image: "",
+            image: "0tacos",
             price: ""
         ),
         FoodModel(
             title: "Ice Cream",
-            image: "",
+            image: "0icecream",
             price: ""
         ),
         FoodModel(
             title: "Sandwich",
-            image: "",
+            image: "sanwich0",
             price: ""
         ),
         FoodModel(
             title: "Soup",
-            image: "",
+            image: "0soup",
             price: ""
         )
     ]

@@ -12,6 +12,7 @@
 		0254E49C2D4CACC90000BB78 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254E49B2D4CACC90000BB78 /* FoodModel.swift */; };
 		0254E49E2D4CACE40000BB78 /* FoodItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254E49D2D4CACE40000BB78 /* FoodItemView.swift */; };
 		0254E4A02D4CACF80000BB78 /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254E49F2D4CACF80000BB78 /* FoodData.swift */; };
+		0254E4A42D4CE0B10000BB78 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254E4A32D4CE0B10000BB78 /* AddItemView.swift */; };
 		02720EB02D4A4CF9001D9555 /* FigmaToSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02720EAF2D4A4CF9001D9555 /* FigmaToSwiftUIApp.swift */; };
 		02720EB22D4A4CF9001D9555 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02720EB12D4A4CF9001D9555 /* ContentView.swift */; };
 		02720EB42D4A4D04001D9555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02720EB32D4A4D04001D9555 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 		02720EC52D4A4DAE001D9555 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02720EC42D4A4DAE001D9555 /* LoginView.swift */; };
 		02720EC72D4A5711001D9555 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02720EC62D4A5711001D9555 /* SplashScreenView.swift */; };
 		02720EC92D4A5973001D9555 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02720EC82D4A5973001D9555 /* OnboardingView.swift */; };
+		028A373E2D4CF034008B5D81 /* FoodDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A373D2D4CF033008B5D81 /* FoodDetailsView.swift */; };
 		02BB8D602D4C8CEA003F2951 /* ForgetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BB8D5F2D4C8CEA003F2951 /* ForgetPasswordView.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,7 @@
 		0254E49B2D4CACC90000BB78 /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
 		0254E49D2D4CACE40000BB78 /* FoodItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemView.swift; sourceTree = "<group>"; };
 		0254E49F2D4CACF80000BB78 /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
+		0254E4A32D4CE0B10000BB78 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 		02720EAC2D4A4CF9001D9555 /* FigmaToSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FigmaToSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02720EAF2D4A4CF9001D9555 /* FigmaToSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaToSwiftUIApp.swift; sourceTree = "<group>"; };
 		02720EB12D4A4CF9001D9555 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		02720EC42D4A4DAE001D9555 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		02720EC62D4A5711001D9555 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		02720EC82D4A5973001D9555 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		028A373D2D4CF033008B5D81 /* FoodDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailsView.swift; sourceTree = "<group>"; };
 		02BB8D5F2D4C8CEA003F2951 /* ForgetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +84,8 @@
 				0254E49B2D4CACC90000BB78 /* FoodModel.swift */,
 				0254E49D2D4CACE40000BB78 /* FoodItemView.swift */,
 				0254E49F2D4CACF80000BB78 /* FoodData.swift */,
+				0254E4A32D4CE0B10000BB78 /* AddItemView.swift */,
+				028A373D2D4CF033008B5D81 /* FoodDetailsView.swift */,
 			);
 			path = FoodListing;
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 				0254E4A02D4CACF80000BB78 /* FoodData.swift in Sources */,
 				021832B52D4B90B20043AF7D /* HomeView.swift in Sources */,
 				02720EB22D4A4CF9001D9555 /* ContentView.swift in Sources */,
+				028A373E2D4CF034008B5D81 /* FoodDetailsView.swift in Sources */,
 				02720EB02D4A4CF9001D9555 /* FigmaToSwiftUIApp.swift in Sources */,
 				02720EC92D4A5973001D9555 /* OnboardingView.swift in Sources */,
+				0254E4A42D4CE0B10000BB78 /* AddItemView.swift in Sources */,
 				0254E49C2D4CACC90000BB78 /* FoodModel.swift in Sources */,
 				0254E49E2D4CACE40000BB78 /* FoodItemView.swift in Sources */,
 				021832B02D4B761A0043AF7D /* SignUpView.swift in Sources */,

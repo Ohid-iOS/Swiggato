@@ -16,7 +16,6 @@ struct ForgetPasswordView: View {
             VStack{
                 
                 HStack(){
-                    
                     Button {
                         GoBack()
                         
@@ -30,6 +29,7 @@ struct ForgetPasswordView: View {
                             .shadow(radius: 3)
                     }
                     Spacer()
+                    
                 }.padding(.leading, 20)
                     .padding(.top, 50)
                 
