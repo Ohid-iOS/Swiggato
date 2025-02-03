@@ -302,7 +302,7 @@ struct SideMenuView: View {
                     Spacer()
                 }
             }
-            .animation(.spring(response: 0.5, dampingFraction: 0.7, blendDuration: 0.2), value: isMenuOpen)
+            .animation(.spring(response: 0.3, blendDuration: 0.2), value: isMenuOpen)
         }
     }
 }
