@@ -5,51 +5,6 @@
 //  Created by Tech Exactly iPhone 6 on 31/01/25.
 //
 
-//import SwiftUI
-//
-//struct FoodItemView: View {
-//    let food: FoodModel
-//    let isSelected: Bool
-//    let toggleSelection: () -> Void
-//
-//    var body: some View {
-//        VStack {
-//            Image(food.image)
-//                .resizable()
-//                .frame(height: 200)
-//
-//            Text(food.title)
-//                .font(.headline)
-//                .foregroundColor(.black)
-//
-//            Text(food.price)
-//                .font(.headline)
-//                .foregroundColor(.black)
-//
-//
-//            Button(action: toggleSelection) {
-//                Image(systemName: isSelected ? "checkmark.circle.fill" : "plus.circle")
-//                    .font(.title)
-//                    .foregroundColor(isSelected ? .green : .blue)
-//            }
-//        }
-//        .padding()
-//        .background(Color.white)
-//        .cornerRadius(15)
-//        .shadow(radius: 3)
-//    }
-//}
-//
-//struct FoodItemView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        FoodItemView(
-//            food: FoodModel(title: "Pizza", image: "splash", price: "200"),
-//            isSelected: false,
-//            toggleSelection: {}
-//        )
-//    }
-//}
-
 
 import SwiftUI
 

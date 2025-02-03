@@ -25,6 +25,10 @@
 		029B50142D5098CD00AF619A /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029B50132D5098CD00AF619A /* EditProfileView.swift */; };
 		029B50162D5098E300AF619A /* AppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029B50152D5098E300AF619A /* AppSettingsView.swift */; };
 		029B50182D5098F000AF619A /* NotificationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029B50172D5098F000AF619A /* NotificationSettingsView.swift */; };
+		029B501A2D509E5800AF619A /* IndianFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029B50192D509E5800AF619A /* IndianFoodView.swift */; };
+		029B501C2D509E6E00AF619A /* ChineseFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029B501B2D509E6E00AF619A /* ChineseFoodView.swift */; };
+		029B50222D50A67D00AF619A /* FoodDataIndian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029B50212D50A67D00AF619A /* FoodDataIndian.swift */; };
+		029B50242D50A68F00AF619A /* FoodDataChinese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029B50232D50A68F00AF619A /* FoodDataChinese.swift */; };
 		02BB8D602D4C8CEA003F2951 /* ForgetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BB8D5F2D4C8CEA003F2951 /* ForgetPasswordView.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +52,10 @@
 		029B50132D5098CD00AF619A /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		029B50152D5098E300AF619A /* AppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsView.swift; sourceTree = "<group>"; };
 		029B50172D5098F000AF619A /* NotificationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsView.swift; sourceTree = "<group>"; };
+		029B50192D509E5800AF619A /* IndianFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndianFoodView.swift; sourceTree = "<group>"; };
+		029B501B2D509E6E00AF619A /* ChineseFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseFoodView.swift; sourceTree = "<group>"; };
+		029B50212D50A67D00AF619A /* FoodDataIndian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDataIndian.swift; sourceTree = "<group>"; };
+		029B50232D50A68F00AF619A /* FoodDataChinese.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDataChinese.swift; sourceTree = "<group>"; };
 		02BB8D5F2D4C8CEA003F2951 /* ForgetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,12 +97,12 @@
 		0254E49A2D4CAC7D0000BB78 /* FoodListing */ = {
 			isa = PBXGroup;
 			children = (
+				029B50252D50A72100AF619A /* FoodData */,
+				029B501E2D509ED900AF619A /* FoodDetailsScreen */,
+				029B501D2D509E9B00AF619A /* AddToCartScreen */,
 				029B50102D50987700AF619A /* SubMenuScreens */,
 				0254E49B2D4CACC90000BB78 /* FoodModel.swift */,
 				0254E49D2D4CACE40000BB78 /* FoodItemView.swift */,
-				0254E49F2D4CACF80000BB78 /* FoodData.swift */,
-				0254E4A32D4CE0B10000BB78 /* AddItemView.swift */,
-				028A373D2D4CF033008B5D81 /* FoodDetailsView.swift */,
 			);
 			path = FoodListing;
 			sourceTree = "<group>";
@@ -204,8 +212,36 @@
 				029B50132D5098CD00AF619A /* EditProfileView.swift */,
 				029B50152D5098E300AF619A /* AppSettingsView.swift */,
 				029B50172D5098F000AF619A /* NotificationSettingsView.swift */,
+				029B50192D509E5800AF619A /* IndianFoodView.swift */,
+				029B501B2D509E6E00AF619A /* ChineseFoodView.swift */,
 			);
 			path = SubMenuScreens;
+			sourceTree = "<group>";
+		};
+		029B501D2D509E9B00AF619A /* AddToCartScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0254E4A32D4CE0B10000BB78 /* AddItemView.swift */,
+			);
+			path = AddToCartScreen;
+			sourceTree = "<group>";
+		};
+		029B501E2D509ED900AF619A /* FoodDetailsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				028A373D2D4CF033008B5D81 /* FoodDetailsView.swift */,
+			);
+			path = FoodDetailsScreen;
+			sourceTree = "<group>";
+		};
+		029B50252D50A72100AF619A /* FoodData */ = {
+			isa = PBXGroup;
+			children = (
+				0254E49F2D4CACF80000BB78 /* FoodData.swift */,
+				029B50212D50A67D00AF619A /* FoodDataIndian.swift */,
+				029B50232D50A68F00AF619A /* FoodDataChinese.swift */,
+			);
+			path = FoodData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,12 +323,16 @@
 				02720EB22D4A4CF9001D9555 /* ContentView.swift in Sources */,
 				028A373E2D4CF034008B5D81 /* FoodDetailsView.swift in Sources */,
 				02720EB02D4A4CF9001D9555 /* FigmaToSwiftUIApp.swift in Sources */,
+				029B50242D50A68F00AF619A /* FoodDataChinese.swift in Sources */,
 				02720EC92D4A5973001D9555 /* OnboardingView.swift in Sources */,
 				0254E4A42D4CE0B10000BB78 /* AddItemView.swift in Sources */,
 				0254E49C2D4CACC90000BB78 /* FoodModel.swift in Sources */,
 				0254E49E2D4CACE40000BB78 /* FoodItemView.swift in Sources */,
 				021832B02D4B761A0043AF7D /* SignUpView.swift in Sources */,
+				029B501C2D509E6E00AF619A /* ChineseFoodView.swift in Sources */,
 				029B50162D5098E300AF619A /* AppSettingsView.swift in Sources */,
+				029B50222D50A67D00AF619A /* FoodDataIndian.swift in Sources */,
+				029B501A2D509E5800AF619A /* IndianFoodView.swift in Sources */,
 				029B50122D5098B400AF619A /* ProfileView.swift in Sources */,
 				02720EC72D4A5711001D9555 /* SplashScreenView.swift in Sources */,
 			);
