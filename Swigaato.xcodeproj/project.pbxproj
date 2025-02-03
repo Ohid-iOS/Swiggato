@@ -21,6 +21,10 @@
 		02720EC72D4A5711001D9555 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02720EC62D4A5711001D9555 /* SplashScreenView.swift */; };
 		02720EC92D4A5973001D9555 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02720EC82D4A5973001D9555 /* OnboardingView.swift */; };
 		028A373E2D4CF034008B5D81 /* FoodDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A373D2D4CF033008B5D81 /* FoodDetailsView.swift */; };
+		029B50122D5098B400AF619A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029B50112D5098B300AF619A /* ProfileView.swift */; };
+		029B50142D5098CD00AF619A /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029B50132D5098CD00AF619A /* EditProfileView.swift */; };
+		029B50162D5098E300AF619A /* AppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029B50152D5098E300AF619A /* AppSettingsView.swift */; };
+		029B50182D5098F000AF619A /* NotificationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029B50172D5098F000AF619A /* NotificationSettingsView.swift */; };
 		02BB8D602D4C8CEA003F2951 /* ForgetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BB8D5F2D4C8CEA003F2951 /* ForgetPasswordView.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +35,7 @@
 		0254E49D2D4CACE40000BB78 /* FoodItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemView.swift; sourceTree = "<group>"; };
 		0254E49F2D4CACF80000BB78 /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
 		0254E4A32D4CE0B10000BB78 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
-		02720EAC2D4A4CF9001D9555 /* FigmaToSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FigmaToSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02720EAC2D4A4CF9001D9555 /* Swigaato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swigaato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02720EAF2D4A4CF9001D9555 /* FigmaToSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaToSwiftUIApp.swift; sourceTree = "<group>"; };
 		02720EB12D4A4CF9001D9555 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02720EB32D4A4D04001D9555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +44,10 @@
 		02720EC62D4A5711001D9555 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		02720EC82D4A5973001D9555 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		028A373D2D4CF033008B5D81 /* FoodDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailsView.swift; sourceTree = "<group>"; };
+		029B50112D5098B300AF619A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		029B50132D5098CD00AF619A /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		029B50152D5098E300AF619A /* AppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsView.swift; sourceTree = "<group>"; };
+		029B50172D5098F000AF619A /* NotificationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsView.swift; sourceTree = "<group>"; };
 		02BB8D5F2D4C8CEA003F2951 /* ForgetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +89,7 @@
 		0254E49A2D4CAC7D0000BB78 /* FoodListing */ = {
 			isa = PBXGroup;
 			children = (
+				029B50102D50987700AF619A /* SubMenuScreens */,
 				0254E49B2D4CACC90000BB78 /* FoodModel.swift */,
 				0254E49D2D4CACE40000BB78 /* FoodItemView.swift */,
 				0254E49F2D4CACF80000BB78 /* FoodData.swift */,
@@ -93,7 +102,7 @@
 		02720EA32D4A4CF9001D9555 = {
 			isa = PBXGroup;
 			children = (
-				02720EAE2D4A4CF9001D9555 /* FigmaToSwiftUI */,
+				02720EAE2D4A4CF9001D9555 /* Swigaato */,
 				02720EAD2D4A4CF9001D9555 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,12 +110,12 @@
 		02720EAD2D4A4CF9001D9555 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				02720EAC2D4A4CF9001D9555 /* FigmaToSwiftUI.app */,
+				02720EAC2D4A4CF9001D9555 /* Swigaato.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		02720EAE2D4A4CF9001D9555 /* FigmaToSwiftUI */ = {
+		02720EAE2D4A4CF9001D9555 /* Swigaato */ = {
 			isa = PBXGroup;
 			children = (
 				021832B32D4B907E0043AF7D /* AppEntry */,
@@ -117,7 +126,7 @@
 				02720EB32D4A4D04001D9555 /* Assets.xcassets */,
 				02720EB52D4A4D04001D9555 /* Preview Content */,
 			);
-			path = FigmaToSwiftUI;
+			path = Swigaato;
 			sourceTree = "<group>";
 		};
 		02720EB52D4A4D04001D9555 /* Preview Content */ = {
@@ -188,12 +197,23 @@
 			path = ForgetPassword;
 			sourceTree = "<group>";
 		};
+		029B50102D50987700AF619A /* SubMenuScreens */ = {
+			isa = PBXGroup;
+			children = (
+				029B50112D5098B300AF619A /* ProfileView.swift */,
+				029B50132D5098CD00AF619A /* EditProfileView.swift */,
+				029B50152D5098E300AF619A /* AppSettingsView.swift */,
+				029B50172D5098F000AF619A /* NotificationSettingsView.swift */,
+			);
+			path = SubMenuScreens;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		02720EAB2D4A4CF9001D9555 /* FigmaToSwiftUI */ = {
+		02720EAB2D4A4CF9001D9555 /* Swigaato */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02720EBA2D4A4D04001D9555 /* Build configuration list for PBXNativeTarget "FigmaToSwiftUI" */;
+			buildConfigurationList = 02720EBA2D4A4D04001D9555 /* Build configuration list for PBXNativeTarget "Swigaato" */;
 			buildPhases = (
 				02720EA82D4A4CF9001D9555 /* Sources */,
 				02720EA92D4A4CF9001D9555 /* Frameworks */,
@@ -203,9 +223,9 @@
 			);
 			dependencies = (
 			);
-			name = FigmaToSwiftUI;
+			name = Swigaato;
 			productName = FigmaToSwiftUI;
-			productReference = 02720EAC2D4A4CF9001D9555 /* FigmaToSwiftUI.app */;
+			productReference = 02720EAC2D4A4CF9001D9555 /* Swigaato.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -223,7 +243,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 02720EA72D4A4CF9001D9555 /* Build configuration list for PBXProject "FigmaToSwiftUI" */;
+			buildConfigurationList = 02720EA72D4A4CF9001D9555 /* Build configuration list for PBXProject "Swigaato" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -236,7 +256,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				02720EAB2D4A4CF9001D9555 /* FigmaToSwiftUI */,
+				02720EAB2D4A4CF9001D9555 /* Swigaato */,
 			);
 		};
 /* End PBXProject section */
@@ -258,6 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				029B50142D5098CD00AF619A /* EditProfileView.swift in Sources */,
+				029B50182D5098F000AF619A /* NotificationSettingsView.swift in Sources */,
 				02BB8D602D4C8CEA003F2951 /* ForgetPasswordView.swift in Sources */,
 				02720EC52D4A4DAE001D9555 /* LoginView.swift in Sources */,
 				0254E4A02D4CACF80000BB78 /* FoodData.swift in Sources */,
@@ -270,6 +292,8 @@
 				0254E49C2D4CACC90000BB78 /* FoodModel.swift in Sources */,
 				0254E49E2D4CACE40000BB78 /* FoodItemView.swift in Sources */,
 				021832B02D4B761A0043AF7D /* SignUpView.swift in Sources */,
+				029B50162D5098E300AF619A /* AppSettingsView.swift in Sources */,
+				029B50122D5098B400AF619A /* ProfileView.swift in Sources */,
 				02720EC72D4A5711001D9555 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,7 +422,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FigmaToSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Swigaato/Preview Content\"";
 				DEVELOPMENT_TEAM = T97Y37DPWY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -427,7 +451,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FigmaToSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Swigaato/Preview Content\"";
 				DEVELOPMENT_TEAM = T97Y37DPWY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -452,7 +476,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02720EA72D4A4CF9001D9555 /* Build configuration list for PBXProject "FigmaToSwiftUI" */ = {
+		02720EA72D4A4CF9001D9555 /* Build configuration list for PBXProject "Swigaato" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02720EB82D4A4D04001D9555 /* Debug */,
@@ -461,7 +485,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		02720EBA2D4A4D04001D9555 /* Build configuration list for PBXNativeTarget "FigmaToSwiftUI" */ = {
+		02720EBA2D4A4D04001D9555 /* Build configuration list for PBXNativeTarget "Swigaato" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02720EBB2D4A4D04001D9555 /* Debug */,
